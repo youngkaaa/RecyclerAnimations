@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:animation="@anim/layout_anim_01"
+                 android:animationOrder="normal"
+                 android:delay="0.2"
+                 android:interpolator="@android:anim/bounce_interpolator">
+
+</layoutAnimation>
