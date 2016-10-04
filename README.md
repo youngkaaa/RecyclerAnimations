@@ -3,15 +3,15 @@ Recycler's Animations，when items slide in!
 
 运行图：
 
-![](http://odf6go2w9.bkt.clouddn.com/2016-10-4%20RecyclerView%20Animationsslidelayout_animation_02.gif)
+![](https://github.com/youngkaaa/RecyclerAnimations/blob/master/app/screens/slidelayout_animation_02.gif)
 
-![](http://odf6go2w9.bkt.clouddn.com/2016-10-4%20RecyclerView%20Animationsslidelayout_animation_03.gif)
+![](https://github.com/youngkaaa/RecyclerAnimations/blob/master/app/screens/slidelayout_animation_03.gif)
 
-![](http://odf6go2w9.bkt.clouddn.com/2016-10-4%20RecyclerView%20Animationsslidelayout_animation_04.gif)
+![](https://github.com/youngkaaa/RecyclerAnimations/blob/master/app/screens/slidelayout_animation_04.gif)
 
-![](http://odf6go2w9.bkt.clouddn.com/2016-10-4%20RecyclerView%20Animationsslidelayout_animation_05.gif)
+![](https://github.com/youngkaaa/RecyclerAnimations/blob/master/app/screens/slidelayout_animation_05.gif)
 
-![](http://odf6go2w9.bkt.clouddn.com/2016-10-4%20RecyclerView%20Animationsslidelayout_animation_06.gif)
+![](https://github.com/youngkaaa/RecyclerAnimations/blob/master/app/screens/slidelayout_animation_06.gif)
 
 这里只贴出部分的效果，由于我的电脑比较卡，所以动画看起来会有点不流畅，请谅解。
 
