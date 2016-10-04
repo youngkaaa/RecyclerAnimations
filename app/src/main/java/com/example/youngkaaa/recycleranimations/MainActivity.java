@@ -4,10 +4,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.animation.AccelerateInterpolator;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.view.animation.LayoutAnimationController;
 import android.widget.LinearLayout;
 
 import java.util.ArrayList;
@@ -41,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
 
         mRecyclerView.addItemDecoration(new MyItemDecoration(this, LinearLayout.VERTICAL));
 
-        Animation animation = AnimationUtils.loadAnimation(this, R.anim.item_anim);
-        LayoutAnimationController layoutAnimationController = new LayoutAnimationController(animation);
-        layoutAnimationController.setInterpolator(new AccelerateInterpolator());
-        layoutAnimationController.setDelay(0.2f);
-        layoutAnimationController.setOrder(LayoutAnimationController.ORDER_RANDOM);
-
-        mRecyclerView.setLayoutAnimation(layoutAnimationController);
+//        Animation animation = AnimationUtils.loadAnimation(this, R.anim.item_anim);
+//        LayoutAnimationController layoutAnimationController = new LayoutAnimationController(animation);
+//        layoutAnimationController.setInterpolator(new AccelerateInterpolator());
+//        layoutAnimationController.setDelay(0.2f);
+//        layoutAnimationController.setOrder(LayoutAnimationController.ORDER_RANDOM);
+//
+//        mRecyclerView.setLayoutAnimation(layoutAnimationController);
 
     }
 

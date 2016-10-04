@@ -11,7 +11,8 @@
         android:id="@+id/recyclerMain"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:layoutAnimation="@anim/layout_anim_01">
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>

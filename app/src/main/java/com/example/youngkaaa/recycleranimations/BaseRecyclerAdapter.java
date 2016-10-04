@@ -98,6 +98,7 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter implem
         return false;
     }
 
+
     public class BaseViewHolder extends RecyclerView.ViewHolder{
         private View rootView;
         private SparseArray<View> views = new SparseArray<>();
@@ -106,6 +107,7 @@ public abstract class BaseRecyclerAdapter<T> extends RecyclerView.Adapter implem
             rootView=itemView;
         }
 
+        //such as findViewById()
         public <T extends View> T getViewById(int id){
             View v = views.get(id);
             if (null == v) {

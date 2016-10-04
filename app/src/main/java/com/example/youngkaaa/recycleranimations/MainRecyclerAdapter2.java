@@ -19,27 +19,17 @@ public class MainRecyclerAdapter2 extends BaseRecyclerAdapter<String> {
 
     @Override
     public void bottomEnterAnim(RecyclerView.ViewHolder viewHolder) {
-//        AnimHelper.BottomInDelayAnim(viewHolder,getContext(),800);
-//        AnimHelper.LeftSlideInAnim(viewHolder);
-        AnimHelper.RightSlideInAnim(viewHolder,300);
-//        AnimHelper.FadeInAnim(viewHolder);
-//        AnimHelper.ScaleOutAnim(viewHolder,300);
-//        AnimHelper.RotationXCenter(viewHolder,1000);
 //        AnimHelper.RotationXTopACW(viewHolder,1000);
-//        AnimHelper.RotationXCenterACW(viewHolder,1000);
+        AnimHelper.RotationXCenterACW(viewHolder,1000);
 //        AnimHelper.RotationXCenterCW(viewHolder,1000);
     }
 
     @Override
     public void topEnterAnim(RecyclerView.ViewHolder viewHolder) {
-//        AnimHelper.TopInDelayAnim(viewHolder,getContext());
-        AnimHelper.LeftSlideInAnim(viewHolder,300);
-//        AnimHelper.FadeInAnim(viewHolder);
-//        AnimHelper.ScaleOutAnim(viewHolder,300);
-//        AnimHelper.RotationXCenter(viewHolder,1000);
 //        AnimHelper.RotationXTopACW(viewHolder,1000);
-//        AnimHelper.RotationXCenterACW(viewHolder,1000);
+        AnimHelper.RotationXCenterACW(viewHolder,1000);
 //        AnimHelper.RotationXCenterCW(viewHolder,1000);
+//        AnimHelper.BottomInDelayAnim(viewHolder,getContext(),300);
     }
 
     @Override
