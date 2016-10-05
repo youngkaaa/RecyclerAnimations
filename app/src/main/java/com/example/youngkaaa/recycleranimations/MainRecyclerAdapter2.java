@@ -4,6 +4,9 @@ import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
+import com.example.youngkaaa.recyclerviewanims.AnimHelper;
+import com.example.youngkaaa.recyclerviewanims.BaseRecyclerAdapter;
+
 import java.util.List;
 
 /**

@@ -1,4 +1,4 @@
-package com.example.youngkaaa.recycleranimations;
+package com.example.youngkaaa.recyclerviewanims;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
